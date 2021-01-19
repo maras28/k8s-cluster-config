@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: dev
+    environment: development
+  annotations:
+    owner: "devteam@contoso.com"
+  name: dev
